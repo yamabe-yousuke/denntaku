@@ -19,7 +19,6 @@
 
 - (IBAction)equal:(id)sender;//計算結果を表示する動作
 - (IBAction)op:(id)sender;//計算方法の選択
-- (IBAction)dot:(id)sender;
 - (IBAction)AC:(id)sender;//画面の値をクリアする動作
 
 @end

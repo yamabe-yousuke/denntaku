@@ -32,7 +32,7 @@
 {
     UIButton*b = (UIButton*)sender;
 
-    if (startInput == YES) {//１桁目の動作
+    if (startInput == YES) {//１桁目の入力
         if (b.tag==0){//0を押した場合
             label.text = @"0";//0を画面に表示
             return;
@@ -41,7 +41,7 @@
             label.text = [NSString stringWithFormat:@"%d",b.tag];
             startInput = NO;//今後は２桁目以降の入力を行う
         }
-    } else {//２桁目以降の動作
+    } else {//２桁目以降の入力
         //既に表示されている数字に連結
         label.text = [NSString stringWithFormat:@"%@%d",label.text,b.tag];
     }
@@ -79,10 +79,6 @@
     
     operation = b.tag;//どの計算方法を行うのか、operationに記録する
     startInput = YES;//２つめの数字の入力開始
-}
-
-- (IBAction)dot:(id)sender {
-    
 }
 
 - (IBAction)AC:(id)sender {
