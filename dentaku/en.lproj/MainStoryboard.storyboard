@@ -301,7 +301,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="248" y="102"/>
+            <point key="canvasLocation" x="227" y="92"/>
         </scene>
     </scenes>
     <classes>
@@ -312,7 +312,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="AC:"/>
-                <relationship kind="action" name="dot:"/>
                 <relationship kind="action" name="equal:"/>
                 <relationship kind="action" name="number:"/>
                 <relationship kind="action" name="op:"/>

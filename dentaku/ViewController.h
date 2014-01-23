@@ -11,9 +11,15 @@
 @interface ViewController : UIViewController{
     IBOutlet UILabel *label;
     BOOL startInput;
-    int currentValue;//計算結果の値の型を定義
+    BOOL startOP;
+    double currentValue;//計算結果の値の型を定義
     int operation;//計算方法を識別
-}
+    
+    #define ADD 0
+    #define SUB 1
+    #define DIV 2
+    #define MUL 3
+    }
 
 - (IBAction)number:(id)sender;//テンキーを押した時の動作
 
